@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+  <document>
+    <head>
+      <style>
+      </style>
+    </head>
+    <catalogTemplate>
+      <banner>
+        <title>Filter</title>
+      </banner>
+      <list>
+        <section>
+          <header>
+            <title>Country</title>
+          </header>
+          <listItemLockup>
+              <title>Canada</title>
+              <decorationLabel>5</decorationLabel>
+              <relatedContent>
+                  <grid>
+                      <section>
+                          <lockup>
+                              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                              <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                          </lockup>
+                          <lockup>
+                              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                              <title>2019 Honda CR-V EX-L</title>
+                          </lockup>
+                          <lockup>
+                              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                              <title>2018 Acura ILX A-Spec Sedan</title>
+                          </lockup>
+                          <lockup>
+                              <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                              <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                          </lockup>
+                          <lockup>
+                              <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                              <title>2018 Acura NSX Coupe</title>
+                          </lockup>
+                      </section>
+                  </grid>
+              </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+              <title>United States</title>
+              <decorationLabel>5</decorationLabel>
+              <relatedContent>
+                  <grid>
+                      <section>
+                          <lockup>
+                              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                              <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                          </lockup>
+                          <lockup>
+                              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                              <title>2019 Honda CR-V EX-L</title>
+                          </lockup>
+                          <lockup>
+                              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                              <title>2018 Acura ILX A-Spec Sedan</title>
+                          </lockup>
+                          <lockup>
+                              <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                              <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                          </lockup>
+                          <lockup>
+                              <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                              <title>2018 Acura NSX Coupe</title>
+                          </lockup>
+                      </section>
+                  </grid>
+              </relatedContent>
+          </listItemLockup>
+        </section>
+        <section>
+          <header>
+            <title>Make</title>
+          </header>
+          <listItemLockup>
+            <title>Acura</title>
+            <decorationLabel>10</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                        <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                        <title>2019 Honda CR-V EX-L</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                        <title>2018 Acura ILX A-Spec Sedan</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                        <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                        <title>2018 Acura NSX Coupe</title>
+                    </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>Audi</title>
+            <decorationLabel>10</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                        <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                        <title>2019 Honda CR-V EX-L</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                        <title>2018 Acura ILX A-Spec Sedan</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                        <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                        <title>2018 Acura NSX Coupe</title>
+                    </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>BMW</title>
+            <decorationLabel>10</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                        <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                        <title>2019 Honda CR-V EX-L</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                        <title>2018 Acura ILX A-Spec Sedan</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                        <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                        <title>2018 Acura NSX Coupe</title>
+                    </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>Chevrolet</title>
+            <decorationLabel>10</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                        <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                        <title>2019 Honda CR-V EX-L</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                        <title>2018 Acura ILX A-Spec Sedan</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                        <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                        <title>2018 Acura NSX Coupe</title>
+                    </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>Ford</title>
+            <decorationLabel>10</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                        <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                        <title>2019 Honda CR-V EX-L</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                        <title>2018 Acura ILX A-Spec Sedan</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                        <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                        <title>2018 Acura NSX Coupe</title>
+                    </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>Honda</title>
+            <decorationLabel>10</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                        <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                        <title>2019 Honda CR-V EX-L</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                        <title>2018 Acura ILX A-Spec Sedan</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                        <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                        <title>2018 Acura NSX Coupe</title>
+                    </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>Jeep</title>
+            <decorationLabel>10</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                        <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                        <title>2019 Honda CR-V EX-L</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                        <title>2018 Acura ILX A-Spec Sedan</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                        <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                        <title>2018 Acura NSX Coupe</title>
+                    </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+          <listItemLockup>
+            <title>Land Rover</title>
+            <decorationLabel>10</decorationLabel>
+            <relatedContent>
+              <grid>
+                <section>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="340" height="260" />
+                        <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="340" height="260" />
+                        <title>2019 Honda CR-V EX-L</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="340" height="260" />
+                        <title>2018 Acura ILX A-Spec Sedan</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="340" height="260" />
+                        <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+                    </lockup>
+                    <lockup>
+                        <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="340" height="260" />
+                        <title>2018 Acura NSX Coupe</title>
+                    </lockup>
+                </section>
+              </grid>
+            </relatedContent>
+          </listItemLockup>
+        </section>
+      </list>
+    </catalogTemplate>
+  </document>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+<document>
+    <alertTemplate>
+        <background>
+            <img srcset="/resources/images/background/bg_dark.jpg (theme:dark), /resources/images/background/bg_light.jpg (theme:light)" />
+        </background>
+        <title>Country</title>
+        <button autoHighlight="true">
+            <text>Canada Spec</text>
+            <badge src="resource://button-checkmark" style="margin:0 20 0;" />
+        </button>
+        <button>
+            <text>United States</text>
+        </button>
+        <button>
+            <text>United Arab Emirates</text>
+        </button>
+        <button disabled="true">
+            <text>China</text>
+        </button>
+        <title>Make + Model</title>
+        <button>
+            <text>Select Make</text>
+        </button>
+        <title>Price Range</title>
+        <button>
+            <text>Select Range</text>
+        </button>
+        <title>Model year</title>
+        <button>
+            <text>2018</text>
+        </button>
+        <button>
+            <text>2019</text>
+        </button>
+        <button>
+            <text>All</text>
+            <badge src="resource://button-checkmark" style="margin:0 20 0;" />
+        </button>
+        <title>Status</title>
+        <button>
+            <text>Incoming</text>
+        </button>
+        <button>
+            <text>In Stock</text>
+        </button>
+        <button>
+            <text>All</text>
+            <badge src="resource://button-checkmark" style="margin:0 20 0;" />
+        </button>
+        <title>Transmission</title>
+        <button>
+            <text>Automatic</text>
+        </button>
+        <button>
+            <text>Manual</text>
+        </button>
+        <button>
+            <text>All</text>
+            <badge src="resource://button-checkmark" style="margin:0 20 0;" />
+        </button>
+    </alertTemplate>
+</document>

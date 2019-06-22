@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+<document>
+  <head>
+    <style>
+    .showTextOnHighlight {
+      tv-text-highlight-style: show-on-highlight;
+    }
+    .badge {
+      tv-tint-color: rgb(0, 0, 0);
+    }
+    .9ColumnGrid {
+      tv-interitem-spacing: 51;
+    }
+    @media tv-template and (tv-theme:dark) {
+        .badge {
+          tv-tint-color: rgb(255, 255, 255);
+        }
+    }
+    </style>
+  </head>
+  <productTemplate theme="dark">
+    <banner>
+      <infoList>
+        <info>
+          <header>
+            <title>condition</title>
+          </header>
+          <text>New Car</text>
+        </info>
+        <info>
+            <header>
+                <title>status</title>
+            </header>
+            <text>Incoming</text>
+        </info>
+        <info>
+          <header>
+            <title>Listing ID</title>
+          </header>
+          <text>70165493</text>
+        </info>
+        <info>
+          <header>
+            <title>Shipping</title>
+          </header>
+          <text>+ $2,500 USD</text>
+          <text>Vancouver</text>
+          <text>Canada</text>
+        </info>
+      </infoList>
+      <stack>
+        <title>2018 Acura NSX Coupe</title>
+        <!-- In lieu of title an image can be used of size max dimensions of 846x130 -->
+        <!-- <img src="" width="846.0" height="130.0" /> -->
+        <row>
+          <textBadge>Canada</textBadge>
+          <textBadge>North York</textBadge>
+          <textBadge>1 UNIT</textBadge>
+<!--          <badge src="resource://mpaa-pg" class="badge" />-->
+<!--          <badge src="resource://cc" class="badge" />-->
+        </row>
+        <header>
+            <title>$14,67,8000 CAD</title>
+        </header>
+        <text>MSRP, excl. PDI.</text>
+        <row>
+            <text>Accepted Payment Method</text>
+            <textBadge>TT</textBadge>
+            <textBadge>LC</textBadge>
+        </row>
+        <row>
+            <text></text>
+        </row>
+        <row>
+          <buttonLockup>
+            <title>Chat</title>
+          </buttonLockup>
+          <buttonLockup>
+            <title>Make Offer</title>
+          </buttonLockup>
+        </row>
+      </stack>
+      <heroImg src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="400" height="300" />
+    </banner>
+    <shelf class="9ColumnGrid">
+      <header>
+        <title>Other Cars from this seller</title>
+      </header>
+      <section>
+        <lockup>
+          <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2019/401528/cc_2019ALC060001_01_640_PXN.png" width="148" height="126" />
+          <title class="showTextOnHighlight">Alfa Romeo 4C</title>
+        </lockup>
+        <lockup>
+          <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="148" height="126" />
+          <title class="showTextOnHighlight">Acura MDX Elite</title>
+        </lockup>
+        <lockup>
+          <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/396941/cc_2018ACC140003_01_640_B612P.png" width="148" height="126" />
+          <title class="showTextOnHighlight">Acura ILX Premium</title>
+        </lockup>
+      </section>
+    </shelf>
+<!--    <shelf>-->
+<!--      <header>-->
+<!--        <title>Specification &amp; Options</title>-->
+<!--      </header>-->
+<!--      <section>-->
+<!--        <ratingCard>-->
+<!--          <title>10%</title>-->
+<!--          <text>Deposit</text>-->
+<!--          <infoTable>-->
+<!--            <info>-->
+<!--              <header>-->
+<!--                <title>Status</title>-->
+<!--              </header>-->
+<!--              <text>Incoming</text>-->
+<!--            </info>-->
+<!--            <info>-->
+<!--              <header>-->
+<!--                <title>Drop off</title>-->
+<!--              </header>-->
+<!--              <text>8 days</text>-->
+<!--            </info>-->
+<!--            <info>-->
+<!--              <header>-->
+<!--                <title>6</title>-->
+<!--              </header>-->
+<!--              <text>Average</text>-->
+<!--            </info>-->
+<!--            <info>-->
+<!--                <header>-->
+<!--                    <title>Country</title>-->
+<!--                </header>-->
+<!--                <text>Canada Spec</text>-->
+<!--            </info>-->
+<!--            <info>-->
+<!--                <header>-->
+<!--                    <title>Model Year</title>-->
+<!--                </header>-->
+<!--                <text>2018</text>-->
+<!--            </info>-->
+<!--            <info>-->
+<!--                <header>-->
+<!--                    <title>Make</title>-->
+<!--                </header>-->
+<!--                <text>Acura</text>-->
+<!--            </info>-->
+<!--            <info>-->
+<!--                <header>-->
+<!--                    <title>Model</title>-->
+<!--                </header>-->
+<!--                <text>NSX</text>-->
+<!--            </info>-->
+<!--          </infoTable>-->
+<!--        </ratingCard>-->
+<!--        <reviewCard>-->
+<!--          <badge src="resource://tomato-splat-m" />-->
+<!--          <title>Publisher</title>-->
+<!--          <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>-->
+<!--          <text>Euna Kwon Dec, 5 2015</text>-->
+<!--        </reviewCard>-->
+<!--      </section>-->
+<!--    </shelf>-->
+    <shelf>
+      <header>
+        <title>Seller</title>
+      </header>
+      <section>
+        <monogramLockup>
+          <monogram src="http://kushalashok.com/img/mini.png" />
+          <title>Kushal Ashok</title>
+          <subtitle>Canada</subtitle>
+        </monogramLockup>
+        <ratingCard>
+            <title>Sell</title>
+            <ratingBadge value="0.7"></ratingBadge>
+            <description>29 ratings</description>
+        </ratingCard>
+        <ratingCard>
+            <title>Buy</title>
+            <ratingBadge value="0.7"></ratingBadge>
+            <description>39 ratings</description>
+        </ratingCard>
+      </section>
+    </shelf>
+
+    <separator />
+
+    <productInfo>
+      <infoTable>
+        <header>
+          <title>Specification</title>
+        </header>
+
+        <info>
+          <header>
+            <title>Country</title>
+          </header>
+          <text>Canada Spec</text>
+        </info>
+
+        <info>
+          <header>
+            <title>Year</title>
+          </header>
+          <text>2018</text>
+        </info>
+        <info>
+          <header>
+            <title>Make</title>
+          </header>
+          <text>Acura</text>
+        </info>
+        <info>
+          <header>
+            <title>Model</title>
+          </header>
+          <text>NSX</text>
+        </info>
+        <info>
+          <header>
+            <title>Trim</title>
+          </header>
+          <text>Coupe</text>
+        </info>
+        <info>
+          <header>
+            <title>Body</title>
+          </header>
+          <text>2dr Car</text>
+        </info>
+        <info>
+            <header>
+                <title>Engine</title>
+            </header>
+            <text>V6 Cylinder</text>
+        </info>
+        <info>
+            <header>
+                <title>Size</title>
+            </header>
+            <text>3.5L</text>
+        </info>
+        <info>
+            <header>
+                <title>Fuel Type</title>
+            </header>
+            <text>Gas/Electric</text>
+        </info>
+        <info>
+            <header>
+                <title>Steering</title>
+            </header>
+            <text>Left Hand Drive</text>
+        </info>
+<!--        <footer>-->
+<!--          <text>Footer Text</text>-->
+<!--        </footer>-->
+      </infoTable>
+      <infoTable>
+        <header>
+          <title>Details</title>
+        </header>
+        <info>
+          <description handlesOverflow="true">Status&#xD;Incoming&#xD;&#xD;CurrentLocation&#xD;North York, Canada&#xD;&#xD;Warehouse&#xD;TradeX NorthYork&#xD;5200 Dixie Road unit 27, Mississauga, Ontario, Canada&#xD;&#xD;Estimated days to drop off to warehouse&#xD;8 Days&#xD;&#xD;
+          </description>
+        </info>
+      </infoTable>
+      <infoTable>
+          <header>
+              <title>Options</title>
+          </header>
+          <info>
+              <description handlesOverflow="true">BASE MSRP&#xD;$189,444,000 CAD&#xD;&#xD;ADDITIONAL EQUIPMENT&#xD;Black Headliner&#xD;Carbon Ceramic Brake&#xD;Black Clipers&#xD;&#xD;MSRP SUBTOTAL&#xD;$14,689,000 CAD&#xD;&#xD;DESTINATION CHARGE&#xD;$2,995 CAD&#xD;&#xD;TOTAL MSRP&#xD;$14,689,000 CAD&#xD;&#xD;
+              </description>
+          </info>
+      </infoTable>
+<!--      <infoTable style="tv-line-spacing:10;">-->
+<!--        <header>-->
+<!--          <title>Header</title>-->
+<!--        </header>-->
+<!--        <info>-->
+<!--          <header>-->
+<!--            <textBadge>SDH</textBadge>-->
+<!--          </header>-->
+<!--          <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</text>-->
+<!--        </info>-->
+<!--        <info>-->
+<!--          <header>-->
+<!--            <textBadge>AD</textBadge>-->
+<!--          </header>-->
+<!--          <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</text>-->
+<!--        </info>-->
+<!--      </infoTable>-->
+    </productInfo>
+  </productTemplate>
+</document>

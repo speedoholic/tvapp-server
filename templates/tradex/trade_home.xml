@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+See LICENSE folder for this sample’s licensing information.
+-->
+<document>
+  <head>
+    <style>
+    .showTextOnHighlight {
+      tv-text-highlight-style: show-on-highlight;
+    }
+    .3ColumnGrid {
+      tv-interitem-spacing: 48;
+    }
+    .5ColumnGrid {
+      tv-interitem-spacing: 50;
+    }
+    .6ColumnGrid {
+      tv-interitem-spacing: 48;
+    }
+    </style>
+  </head>
+  <stackTemplate>
+    <collectionList>
+      <carousel>
+        <section>
+            <lockup documentURL="/templates/tradex/trade_product.xml">
+                <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="800" height="600" />
+                <title>2018 Acura NSX Coupe</title>
+            </lockup>
+          <lockup documentURL="/templates/tradex/trade_product.xml">
+            <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/393159/cc_2018ALC050001_01_640_PRW.png" width="800" height="600" />
+            <title>2018 Alfa Romeo 4C Coupe Coupe</title>
+          </lockup>
+          <lockup documentURL="/templates/tradex/trade_product.xml">
+              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="800" height="600" />
+              <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+          </lockup>
+          <lockup documentURL="/templates/tradex/trade_product.xml">
+              <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="800" height="600" />
+              <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+          </lockup>
+          
+        </section>
+      </carousel>
+      <separator style="margin: 40 0 20">
+        <button documentURL="/templates/tradex/trade_filter.xml">
+          <text>Filter</text>
+          <badge width="31" height="14" style="margin: 0 0 0 10;" src="resource://button-dropdown" />
+        </button>
+      </separator>
+      <shelf class="3ColumnGrid">
+          <header>
+              <title>Recommendation</title>
+          </header>
+          <section>
+              <lockup>
+                  <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="400" height="300" />
+                  <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+              </lockup>
+              <lockup>
+                  <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2019/404120/cc_2019HOS020032_01_640_BS.png" width="400" height="300" />
+                  <title>2019 Honda CR-V EX-L</title>
+              </lockup>
+              <lockup>
+                  <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="400" height="300" />
+                  <title>2018 Acura ILX A-Spec Sedan</title>
+              </lockup>
+              <lockup>
+                  <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397036/cc_2018ACS110012_01_640_B588P.png" width="400" height="300" />
+                  <title>2018 Acura MDX Elite 6 Passenger SH-AWD</title>
+              </lockup>
+              <lockup>
+            <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="400" height="300" />
+            <title>2018 Acura NSX Coupe</title>
+          </lockup>
+          </section>
+      </shelf>
+      <shelf class="3ColumnGrid">
+        <header>
+          <title>Trending Cars</title>
+        </header>
+        <section>
+          <lockup>
+              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2011/326653/cc_2011CHE015a_01_640_41U.png" width="400" height="300" />
+              <title>2011 Chevrolet Suburban 4WD 4dr 1500 LT</title>
+          </lockup>
+          <lockup>
+            <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="400" height="300" />
+            <title>2018 Acura ILX A-Spec Sedan</title>
+          </lockup>
+          <lockup>
+            <img src="https://tradex-china.zeno-cdn.com/media/cardata/images/2018/397649/cc_2018ACC050002_01_640_B605P.png" width="400" height="300" />
+            <title>2018 Acura NSX Coupe</title>
+          </lockup>
+          <lockup>
+              <img src="https://tradex-us.zeno-cdn.com/media/cardata/images/2018/396943/cc_2018ACC140006_01_640_B612P.png" width="400" height="300" />
+              <title>2018 Acura ILX A-Spec Sedan</title>
+          </lockup>
+        </section>
+      </shelf>
+    </collectionList>
+  </stackTemplate>
+</document>
